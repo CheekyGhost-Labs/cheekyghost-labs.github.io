@@ -213,4 +213,4 @@ If you find a bug, or want support added for something, [please submit a bug or 
 
 ## Privacy Policy
 
-Mimic's Privacy Policy can be [found here](/pages/mimic-privacy-policy).
+Mimic's Privacy Policy can be [found here](/page/mimic-privacy-policy).
