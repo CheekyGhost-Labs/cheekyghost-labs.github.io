@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /page/mimic-privacy-policy
 ---
 
 
