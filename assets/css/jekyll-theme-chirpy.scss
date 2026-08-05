@@ -1,0 +1,100 @@
+---
+---
+
+@import 'main';
+
+@media all and (min-width: 850px) {
+  #main-wrapper { margin-left: 310px !important; }
+}
+@media all and (min-width: 1650px) {
+  #main-wrapper { margin-left: 350px !important; }
+}
+
+#sidebar {
+  width: 310px !important;
+}
+@media all and (min-width: 1650px) {
+  #sidebar { width: 350px !important; }
+}
+
+@media all and (max-width: calc(850px - 1px)) {
+  #sidebar {
+    transform: translateX(-310px) !important;
+    -webkit-transform: translateX(-310px) !important;
+  }
+  [sidebar-display] #main-wrapper {
+    transform: translateX(310px) !important;
+  }
+}
+
+@media all and (min-width: 850px) {
+  #toc-popup { left: 310px !important; }
+}
+
+@media all and (min-width: 1400px) {
+  #back-to-top { right: calc((100vw - 310px - 1140px) / 2 + 3rem) !important; }
+}
+@media all and (min-width: 1650px) {
+  #back-to-top { right: calc((100vw - 350px - 1250px) / 2 + 2rem) !important; }
+}
+
+.mimic-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.mimic-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid var(--btn-border-color);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.mimic-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow);
+}
+
+.mimic-cta-btn.primary {
+  background: #0d6efd;
+  color: #fff !important;
+  border-color: #0d6efd;
+}
+
+.mimic-cta-btn.secondary {
+  background: var(--card-bg);
+  color: var(--text-color) !important;
+}
+
+.mimic-cta-btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.mimic-app-store-badge img {
+  height: 48px;
+  width: auto;
+  transition: transform 0.15s ease;
+}
+
+.mimic-app-store-badge:hover img {
+  transform: translateY(-2px);
+}
+
+.mimic-app-store-badge a {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  align-self: stretch;
+  margin-top: 6px;
+}
