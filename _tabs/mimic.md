@@ -15,8 +15,11 @@ title: Mimic
 
 <div class="mimic-cta-row" style="margin-top: -34px;">
   <span class="mimic-app-store-badge">
-    <a href="https://apps.apple.com/us/app/mimic-mockgenerator-for-xcode/id1640010185" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/img/pages/mimic/app-store-badge.svg" alt="Download on the App Store" class="normal">
+    <a href="https://apps.apple.com/us/app/mimic-mockgenerator-for-xcode/id1640010185"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="display:inline-block; width:180px; height:52px; background-image:url('/assets/img/pages/mimic/app-store-badge.svg'); background-size:contain; background-repeat:no-repeat; background-position:center; text-decoration:none; border-bottom:none;"
+       aria-label="Download on the App Store">
     </a>
   </span>
   <a href="https://github.com/CheekyGhost-Labs/mimic-appspace/releases/download/2.0.0/Mimic.zip" target="_blank" class="mimic-cta-btn primary">

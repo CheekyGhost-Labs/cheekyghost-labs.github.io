@@ -90,3 +90,11 @@
 .mimic-app-store-badge:hover img {
   transform: translateY(-2px);
 }
+
+.mimic-app-store-badge a {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  align-self: stretch;
+  margin-top: 6px;
+}
