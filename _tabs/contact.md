@@ -1,8 +1,8 @@
 ---
 layout: page
 icon: fas fa-info-circle
-order: 1
-title: About
+order: 4
+title: Contact
 ---
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.

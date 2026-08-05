@@ -1,0 +1,39 @@
+---
+---
+
+@import 'main';
+
+@media all and (min-width: 850px) {
+  #main-wrapper { margin-left: 310px !important; }
+}
+@media all and (min-width: 1650px) {
+  #main-wrapper { margin-left: 350px !important; }
+}
+
+#sidebar {
+  width: 310px !important;
+}
+@media all and (min-width: 1650px) {
+  #sidebar { width: 350px !important; }
+}
+
+@media all and (max-width: calc(850px - 1px)) {
+  #sidebar {
+    transform: translateX(-310px) !important;
+    -webkit-transform: translateX(-310px) !important;
+  }
+  [sidebar-display] #main-wrapper {
+    transform: translateX(310px) !important;
+  }
+}
+
+@media all and (min-width: 850px) {
+  #toc-popup { left: 310px !important; }
+}
+
+@media all and (min-width: 1400px) {
+  #back-to-top { right: calc((100vw - 310px - 1140px) / 2 + 3rem) !important; }
+}
+@media all and (min-width: 1650px) {
+  #back-to-top { right: calc((100vw - 350px - 1250px) / 2 + 2rem) !important; }
+}
