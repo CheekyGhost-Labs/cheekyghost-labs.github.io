@@ -1,0 +1,167 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://cheekyghost-labs.github.io/</id>
+  <title>CheekyGhost Labs</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2026-08-06T09:00:39+10:00</updated>
+  <author>
+    <name>Michael O'Brien'</name>
+    <uri>https://cheekyghost-labs.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://cheekyghost-labs.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://cheekyghost-labs.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Michael O'Brien' </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>OSLogClient</title>
+    <link href="https://cheekyghost-labs.github.io/posts/oslogclient/" rel="alternate" type="text/html" title="OSLogClient" />
+    <published>2023-09-04T10:00:00+10:00</published>
+  
+    <updated>2023-09-04T10:00:00+10:00</updated>
+  
+    <id>https://cheekyghost-labs.github.io/posts/oslogclient/</id>
+    <content type="text/html" src="https://cheekyghost-labs.github.io/posts/oslogclient/" />
+    <author>
+      <name>Michael O'Brien'</name>
+    </author>
+
+  
+    
+    <category term="ios" />
+    
+    <category term="swift" />
+    
+    <category term="tooling" />
+    
+    <category term="open-source" />
+    
+  
+
+  <summary>adopting unified logging with OSLog while still sending to other vendors</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>SyntaxSparrow</title>
+    <link href="https://cheekyghost-labs.github.io/posts/syntaxsparrow/" rel="alternate" type="text/html" title="SyntaxSparrow" />
+    <published>2023-06-12T10:00:00+10:00</published>
+  
+    <updated>2023-06-12T10:00:00+10:00</updated>
+  
+    <id>https://cheekyghost-labs.github.io/posts/syntaxsparrow/</id>
+    <content type="text/html" src="https://cheekyghost-labs.github.io/posts/syntaxsparrow/" />
+    <author>
+      <name>Michael O'Brien'</name>
+    </author>
+
+  
+    
+    <category term="ios" />
+    
+    <category term="swift" />
+    
+    <category term="tooling" />
+    
+    <category term="open-source" />
+    
+  
+
+  <summary>helping to navigate SwiftSyntax tokens</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>IndexStore for Swift</title>
+    <link href="https://cheekyghost-labs.github.io/posts/indexstore-for-swift/" rel="alternate" type="text/html" title="IndexStore for Swift" />
+    <published>2023-05-04T10:00:00+10:00</published>
+  
+    <updated>2023-05-04T10:00:00+10:00</updated>
+  
+    <id>https://cheekyghost-labs.github.io/posts/indexstore-for-swift/</id>
+    <content type="text/html" src="https://cheekyghost-labs.github.io/posts/indexstore-for-swift/" />
+    <author>
+      <name>Michael O'Brien'</name>
+    </author>
+
+  
+    
+    <category term="ios" />
+    
+    <category term="swift" />
+    
+    <category term="tooling" />
+    
+    <category term="open-source" />
+    
+  
+
+  <summary>because IndexStoreDB is a fickle beast</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>My Problem With Contacts</title>
+    <link href="https://cheekyghost-labs.github.io/posts/my-problem-with-contacts/" rel="alternate" type="text/html" title="My Problem With Contacts" />
+    <published>2023-02-14T10:00:00+10:00</published>
+  
+    <updated>2023-02-14T10:00:00+10:00</updated>
+  
+    <id>https://cheekyghost-labs.github.io/posts/my-problem-with-contacts/</id>
+    <content type="text/html" src="https://cheekyghost-labs.github.io/posts/my-problem-with-contacts/" />
+    <author>
+      <name>Michael O'Brien'</name>
+    </author>
+
+  
+    
+    <category term="privacy" />
+    
+    <category term="product" />
+    
+  
+
+  <summary>Reviving the Consynki app with a focus on privacy</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Xcode Extensions, Code Signing, and TestFlight Woes</title>
+    <link href="https://cheekyghost-labs.github.io/posts/xcode-extensions-code-signing-and-testflight-woes/" rel="alternate" type="text/html" title="Xcode Extensions, Code Signing, and TestFlight Woes" />
+    <published>2022-08-27T10:00:00+10:00</published>
+  
+    <updated>2022-08-27T10:00:00+10:00</updated>
+  
+    <id>https://cheekyghost-labs.github.io/posts/xcode-extensions-code-signing-and-testflight-woes/</id>
+    <content type="text/html" src="https://cheekyghost-labs.github.io/posts/xcode-extensions-code-signing-and-testflight-woes/" />
+    <author>
+      <name>Michael O'Brien'</name>
+    </author>
+
+  
+    
+    <category term="ios" />
+    
+    <category term="swift" />
+    
+    <category term="tooling" />
+    
+  
+
+  <summary>Do you know what is not ideal for an app that generates code based on a vast array of different coding styles and disciplines? Not being able to use TestFlight for the beta testing 😩  I have come to rely so heavily on TestFlight to get a bunch of early bugs and improvements implemented before a release. I am strict on unit testing, but that does not mean I missed a bug, and my assumptions about...</summary>
+
+  </entry>
+
+</feed>
+
+
