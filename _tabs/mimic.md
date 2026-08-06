@@ -25,7 +25,7 @@ title: Mimic
   <a href="https://github.com/CheekyGhost-Labs/mimic-appspace/releases/download/2.0.1/Mimic.zip" target="_blank" class="mimic-cta-btn primary">
     <i class="fas fa-download"></i> Direct Download
   </a>
-  <a href="https://cheekyghost.lemonsqueezy.com/checkout" target="_blank" class="mimic-cta-btn secondary">
+  <a href="https://cheekyghost.lemonsqueezy.com" target="_blank" class="mimic-cta-btn secondary">
     <i class="fas fa-key"></i> Purchase a License
   </a>
 </div>
