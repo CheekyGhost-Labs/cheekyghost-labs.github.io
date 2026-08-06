@@ -22,7 +22,7 @@ title: Mimic
        aria-label="Download on the App Store">
     </a>
   </span>
-  <a href="https://github.com/CheekyGhost-Labs/mimic-appspace/releases/download/2.0.0/Mimic.zip" target="_blank" class="mimic-cta-btn primary">
+  <a href="https://github.com/CheekyGhost-Labs/mimic-appspace/releases/download/2.0.1/Mimic.zip" target="_blank" class="mimic-cta-btn primary">
     <i class="fas fa-download"></i> Direct Download
   </a>
   <a href="https://cheekyghost.lemonsqueezy.com/checkout" target="_blank" class="mimic-cta-btn secondary">
