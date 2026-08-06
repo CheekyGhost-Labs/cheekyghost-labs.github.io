@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://cheekyghost.com/</id>
   <title>CheekyGhost Labs</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-08-06T10:56:13+10:00</updated>
+  <updated>2026-08-06T11:25:20+10:00</updated>
   <author>
     <name>Michael O'Brien'</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://cheekyghost.com/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://cheekyghost.com/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://cheekyghost.com/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Michael O'Brien' </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>OSLogClient</title>
-    <link href="http://localhost:4000/posts/oslogclient/" rel="alternate" type="text/html" title="OSLogClient" />
+    <link href="https://cheekyghost.com/posts/oslogclient/" rel="alternate" type="text/html" title="OSLogClient" />
     <published>2023-09-04T10:00:00+10:00</published>
   
     <updated>2023-09-04T10:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/oslogclient/</id>
-    <content type="text/html" src="http://localhost:4000/posts/oslogclient/" />
+    <id>https://cheekyghost.com/posts/oslogclient/</id>
+    <content type="text/html" src="https://cheekyghost.com/posts/oslogclient/" />
     <author>
       <name>Michael O'Brien'</name>
     </author>
@@ -51,13 +51,13 @@
   
   <entry>
     <title>SyntaxSparrow</title>
-    <link href="http://localhost:4000/posts/syntaxsparrow/" rel="alternate" type="text/html" title="SyntaxSparrow" />
+    <link href="https://cheekyghost.com/posts/syntaxsparrow/" rel="alternate" type="text/html" title="SyntaxSparrow" />
     <published>2023-06-12T10:00:00+10:00</published>
   
     <updated>2023-06-12T10:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/syntaxsparrow/</id>
-    <content type="text/html" src="http://localhost:4000/posts/syntaxsparrow/" />
+    <id>https://cheekyghost.com/posts/syntaxsparrow/</id>
+    <content type="text/html" src="https://cheekyghost.com/posts/syntaxsparrow/" />
     <author>
       <name>Michael O'Brien'</name>
     </author>
@@ -81,13 +81,13 @@
   
   <entry>
     <title>IndexStore for Swift</title>
-    <link href="http://localhost:4000/posts/indexstore-for-swift/" rel="alternate" type="text/html" title="IndexStore for Swift" />
+    <link href="https://cheekyghost.com/posts/indexstore-for-swift/" rel="alternate" type="text/html" title="IndexStore for Swift" />
     <published>2023-05-04T10:00:00+10:00</published>
   
     <updated>2023-05-04T10:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/indexstore-for-swift/</id>
-    <content type="text/html" src="http://localhost:4000/posts/indexstore-for-swift/" />
+    <id>https://cheekyghost.com/posts/indexstore-for-swift/</id>
+    <content type="text/html" src="https://cheekyghost.com/posts/indexstore-for-swift/" />
     <author>
       <name>Michael O'Brien'</name>
     </author>
@@ -111,13 +111,13 @@
   
   <entry>
     <title>My Problem With Contacts</title>
-    <link href="http://localhost:4000/posts/my-problem-with-contacts/" rel="alternate" type="text/html" title="My Problem With Contacts" />
+    <link href="https://cheekyghost.com/posts/my-problem-with-contacts/" rel="alternate" type="text/html" title="My Problem With Contacts" />
     <published>2023-02-14T10:00:00+10:00</published>
   
     <updated>2023-02-14T10:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/my-problem-with-contacts/</id>
-    <content type="text/html" src="http://localhost:4000/posts/my-problem-with-contacts/" />
+    <id>https://cheekyghost.com/posts/my-problem-with-contacts/</id>
+    <content type="text/html" src="https://cheekyghost.com/posts/my-problem-with-contacts/" />
     <author>
       <name>Michael O'Brien'</name>
     </author>
@@ -137,13 +137,13 @@
   
   <entry>
     <title>Xcode Extensions, Code Signing, and TestFlight Woes</title>
-    <link href="http://localhost:4000/posts/xcode-extensions-code-signing-and-testflight-woes/" rel="alternate" type="text/html" title="Xcode Extensions, Code Signing, and TestFlight Woes" />
+    <link href="https://cheekyghost.com/posts/xcode-extensions-code-signing-and-testflight-woes/" rel="alternate" type="text/html" title="Xcode Extensions, Code Signing, and TestFlight Woes" />
     <published>2022-08-27T10:00:00+10:00</published>
   
     <updated>2022-08-27T10:00:00+10:00</updated>
   
-    <id>http://localhost:4000/posts/xcode-extensions-code-signing-and-testflight-woes/</id>
-    <content type="text/html" src="http://localhost:4000/posts/xcode-extensions-code-signing-and-testflight-woes/" />
+    <id>https://cheekyghost.com/posts/xcode-extensions-code-signing-and-testflight-woes/</id>
+    <content type="text/html" src="https://cheekyghost.com/posts/xcode-extensions-code-signing-and-testflight-woes/" />
     <author>
       <name>Michael O'Brien'</name>
     </author>
