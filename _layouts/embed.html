@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
+  <style>
+    /* Force dark or light based on system, no sidebar/topbar chrome */
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--main-bg);
+      color: var(--text-color);
+    }
+    .embed-wrapper {
+      max-width: 100%;
+      padding: 1rem 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="embed-wrapper content">
+    {{ content }}
+  </div>
+</body>
+</html>

@@ -3,39 +3,8 @@
 
 @import 'main';
 
-@media all and (min-width: 850px) {
-  #main-wrapper { margin-left: 310px !important; }
-}
-@media all and (min-width: 1650px) {
-  #main-wrapper { margin-left: 350px !important; }
-}
-
-#sidebar {
-  width: 310px !important;
-}
-@media all and (min-width: 1650px) {
-  #sidebar { width: 350px !important; }
-}
-
-@media all and (max-width: calc(850px - 1px)) {
-  #sidebar {
-    transform: translateX(-310px) !important;
-    -webkit-transform: translateX(-310px) !important;
-  }
-  [sidebar-display] #main-wrapper {
-    transform: translateX(310px) !important;
-  }
-}
-
-@media all and (min-width: 850px) {
-  #toc-popup { left: 310px !important; }
-}
-
-@media all and (min-width: 1400px) {
-  #back-to-top { right: calc((100vw - 310px - 1140px) / 2 + 3rem) !important; }
-}
-@media all and (min-width: 1650px) {
-  #back-to-top { right: calc((100vw - 350px - 1250px) / 2 + 2rem) !important; }
+#sidebar .site-title {
+  font-size: 1.4rem;
 }
 
 .mimic-cta-row {
@@ -47,11 +16,25 @@
   margin: 1.5rem 0;
 }
 
+.mimic-app-store-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 180px;
+  height: 52px;
+  background-image: url('/assets/img/pages/mimic/app-store-badge.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
 .mimic-cta-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.7rem 1.4rem;
+  height: 48px;
+  padding: 0 1.4rem;
   border-radius: 0.6rem;
   font-weight: 600;
   font-size: 0.95rem;
@@ -81,20 +64,129 @@
   pointer-events: none;
 }
 
-.mimic-app-store-badge img {
-  height: 48px;
-  width: auto;
-  transition: transform 0.15s ease;
-}
-
-.mimic-app-store-badge:hover img {
+.mimic-app-store-badge:hover {
   transform: translateY(-2px);
 }
 
-.mimic-app-store-badge a {
-  display: inline-flex;
+.mimic-step-card {
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  border-radius: 10px;
+  padding: 1.75rem;
+  margin: 2rem 0;
+}
+
+.mimic-step-header {
+  display: flex;
   align-items: center;
-  height: 100%;
-  align-self: stretch;
-  margin-top: 6px;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.mimic-step-badge {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #0d6efd;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mimic-step-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.mimic-step-point p {
+  margin: 0 0 0.75rem;
+  color: var(--text-muted-color);
+}
+
+.mimic-step-point img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+.mimic-step-bullets {
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+  color: var(--text-muted-color);
+}
+
+.mimic-step-bullets li {
+  margin-bottom: 0.5rem;
+}
+
+.mimic-step-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.mimic-step-image-row img {
+  flex: 1 1 260px;
+  min-width: 200px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+}
+
+.mimic-note {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  background: var(--prompt-warning-bg);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.mimic-note i {
+  color: var(--prompt-warning-icon-color);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.mimic-note p {
+  margin: 0;
+  color: var(--prompt-text-color);
+}
+
+.mimic-note.info {
+  background: var(--prompt-info-bg);
+}
+
+.mimic-note.info i {
+  color: var(--prompt-info-icon-color);
+}
+
+.mimic-note-plain {
+  font-size: 0.9rem;
+  color: var(--text-muted-color);
+  margin-top: 0.75rem;
+}
+
+.mimic-image-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.mimic-image-row > a.img-link {
+  flex: 0 1 auto;
+}
+
+.mimic-image-row > a.img-link img {
+  // height: 280px !important;
+  width: auto !important;
+  display: block;
+  object-fit: contain; 
+  border-radius: 8px;
 }
